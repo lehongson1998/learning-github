@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class TryCatchFinally {
     public static void main(String[] args) {
+	//constant of ansi corlor
         final String ANSI_RESET = "\u001B[0m";
         final String ANSI_BLACK = "\u001B[30m";
         final String ANSI_RED = "\u001B[31m";
