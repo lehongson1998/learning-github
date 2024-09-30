@@ -47,7 +47,7 @@ public class Person extends Animal{
     @Override
     public String toString() {
         return "Person{" +
-                "name=" + this.getName() + "," +
+                "name=" + this.name + "," +
                 "age=" + this.getAge() + "," +
                 "idCard='" + idCard + '\'' +
                 ", height=" + height +
