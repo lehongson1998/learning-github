@@ -1,7 +1,7 @@
 package B4;
 
 public class Animal {
-    private String name;
+    protected String name;
     private int age;
 
     public Animal(){
