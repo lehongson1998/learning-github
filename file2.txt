@@ -1,0 +1,4 @@
+git reset --soft HEAD
+git reset --mixed HEAD (Or id staged changes)
+git reset --hard
+git log --oneline (show hash id staged changes)
