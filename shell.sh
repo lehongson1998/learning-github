@@ -4,5 +4,3 @@ x=$(date)
 git commit -m "update new file2 and shell.sh of $x"
 git push
 git log --oneline
-q="q"
-read $q
