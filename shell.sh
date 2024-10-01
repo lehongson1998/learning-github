@@ -1,4 +1,5 @@
-echo "hello world" >> file2.txt
+echo $(date) >> file2.txt
 git add file2.txt shell.sh
-git commit -m "update new file2 and shell.sh"
+x=$(date)
+git commit -m "update new file2 and shell.sh `$(x)`"
 git push
