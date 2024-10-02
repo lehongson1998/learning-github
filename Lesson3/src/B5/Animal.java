@@ -47,4 +47,13 @@ public class Animal {
         Animal animal = (Animal) obj;
         return (Objects.equals(this.name, animal.name) && this.age == animal.age && this.weight == animal.weight);
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", weight=" + weight +
+                '}';
+    }
 }
