@@ -13,6 +13,7 @@ public class LearnArrayList {
         customers.removeLast();
         System.out.println("size of customers list: " + customers.size());
         customers.get(1).setName("Buscu");
+        customers.get(1).setAge(32);
 
         for (Customer c : customers) {
             System.out.println(c);
