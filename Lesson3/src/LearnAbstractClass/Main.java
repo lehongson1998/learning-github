@@ -12,5 +12,6 @@ public class Main {
         System.out.println("Area Of Cirle = " + cirle.getArea());
         System.out.println("coordinates of Rectangle = " + rectangle.getCoordinates().toString());
         System.out.println("Area Of Rectangle = " + rectangle.getArea());
+        System.out.println("Minus Rectangle Area = " + ((Rectangle) rectangle).minusArea());
     }
 }

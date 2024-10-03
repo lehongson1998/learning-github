@@ -30,4 +30,8 @@ public class Rectangle extends Shape {
     public double getArea() {
         return this.width * this.height;
     }
+
+    public double minusArea() {
+        return this.getArea() / 2;
+    }
 }
