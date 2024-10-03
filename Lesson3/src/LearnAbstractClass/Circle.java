@@ -2,7 +2,7 @@ package LearnAbstractClass;
 
 public class Circle extends Shape {
     private double radius;
-
+    //this is constructor
     public Circle(Coordinates coordinates, double radius) {
         super(coordinates);
         this.radius = radius;
