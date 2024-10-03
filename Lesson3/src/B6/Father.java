@@ -28,13 +28,18 @@ public class Father {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        Father f = new Father();
-        File file = new File(f.PATH);
-        System.out.println(f);
-        Scanner scanner = new Scanner(file);
-        while (scanner.hasNextLine()) {
-            String line = scanner.nextLine();
-            System.out.println(line);
+        try{
+            Father f = new Father();
+            File file = new File(f.PATH);
+            System.out.println(f);
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                System.out.println(line);
+            }
+        }catch (FileNotFoundException e) {
+            System.out.print("File not found");
         }
+
     }
 }
