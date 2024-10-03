@@ -1,14 +1,22 @@
 package EqualAndHashcode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         MyDate myDate1 = new MyDate(2019, 1, 1);
         MyDate myDate2 = new MyDate(2019, 1, 2);
         MyDate myDate3 = new MyDate(2019, 1, 1);
 
-        System.out.println(myDate1);
-        System.out.println(myDate2);
-        System.out.println(myDate3);
+        List<MyDate> myDates = new ArrayList<>();
+        myDates.add(myDate1);
+        myDates.add(myDate2);
+        myDates.add(myDate3);
+
+        for (MyDate myDate : myDates) {
+            System.out.println("Son" + myDate);
+        }
 
         System.out.println(myDate1.equals(myDate2));
         System.out.println(myDate1.equals(myDate3));
