@@ -28,5 +28,7 @@ public class Main {
         System.out.println("s1 equal s3 : " + s1.equals(s3));
         System.out.println("s1 equalIgnoreCase s2 " + s1.equalsIgnoreCase(s2));
         System.out.println("s1 equalIgnoreCase s3 " + s1.equalsIgnoreCase(s3));
+
+        System.out.println(s1.replace("Le Hong Son", "Shizuka"));
     }
 }
