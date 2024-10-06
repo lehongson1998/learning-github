@@ -17,5 +17,8 @@ public class Main {
         MinusInteger n = (int a, int b) -> (a > b) ? a - b : b - a;
 
         System.out.println(n.minusInteger(10, 20));
+
+        ISumNumber<String> iSumNumber = (t, t2) -> t + t2;
+        System.out.println(iSumNumber.sum("1", "2"));
     }
 }
